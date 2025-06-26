@@ -1,15 +1,8 @@
 # Azure AI Foundry Chainlit Chat Application
 
-A modern chat application that integrates **Chainlit** with **Azure AI Foundry** agents, providing an intuitive interface for users to interact with intelligent AI assistants.
+A modern yet simple chat application that integrates **Chainlit** with **Azure AI Foundry** agents, providing an intuitive interface for users to interact with intelligent AI assistants.
 
-## 🚀 Features
 
-- **Real-time chat interface** with Azure AI Foundry agents
-- **Persistent conversation threads** for context-aware conversations
-- **Professional UI** with typing indicators and visual feedback
-- **Robust error handling** and user-friendly error messages
-- **Async processing** for optimal performance
-- **Session management** supporting multiple concurrent users
 
 ## 📋 Prerequisites
 
@@ -68,13 +61,6 @@ chainlit run chainlit_foundry_chat.py -w
 ```
 
 The application will start and be available at `http://localhost:8000`
-
-## 🎯 Usage
-
-1. **Start a Conversation**: Click "Start Chat" to begin
-2. **Send Messages**: Type your questions or messages in the chat box
-3. **Get Responses**: Watch as the AI agent processes and responds to your queries
-4. **Continue Chatting**: The conversation context is maintained throughout the session
 
 ## 🏗️ Architecture
 
@@ -135,13 +121,6 @@ Run with debug logging:
 PYTHONPATH=. python -c "import logging; logging.basicConfig(level=logging.DEBUG)" && chainlit run chainlit_foundry_chat.py -w
 ```
 
-## 📚 Dependencies
-
-- **azure-ai-projects**: Azure AI Projects SDK for agent communication
-- **azure-identity**: Azure authentication
-- **chainlit**: Web-based chat interface framework
-- **python-dotenv**: Environment variable management
-- **azure-core**: Core Azure SDK components
 
 ## 🤝 Contributing
 
@@ -151,6 +130,3 @@ Feel free to submit issues, feature requests, or pull requests to improve this a
 
 This project is provided as-is for educational and development purposes.
 
----
-
-**Happy Chatting!** 🎉 If you encounter any issues, please check the troubleshooting section or create an issue in the repository.
