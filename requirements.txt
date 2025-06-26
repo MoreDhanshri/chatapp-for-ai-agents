@@ -1,0 +1,7 @@
+azure-ai-projects>=1.0.0b1
+azure-identity>=1.15.0
+chainlit>=1.0.0
+python-dotenv>=1.0.0
+azure-core>=1.29.0
+fastapi>=0.100.0
+uvicorn[standard]>=0.20.0
